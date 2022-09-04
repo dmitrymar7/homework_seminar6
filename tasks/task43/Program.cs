@@ -4,7 +4,7 @@
 // b1 = 2, k1 = 5, b2 = 4, k2 = 9 -> (-0,5; -0,5)
 
 //x = (y - b1) / k1
-//y = k2 * (b1 - y) / k1 + b2 -> 
+//y = k2 * (y - b1) / k1 + b2 -> y = (b2 * k1 - k2 * b2) / (k1 - k2)
 
 Console.Write("Введите коэффициент b1: ");
 double b1 = Convert.ToDouble(Console.ReadLine());
